@@ -9,7 +9,8 @@ unityroomなど小作品向けのUnity簡易フレームワークです。機能
 - 効果音、BGMの再生(3Dモードは未設定)
 
 # ライセンス
-[MIT License](LICENSE)
+[MIT License](https://raw.githubusercontent.com/am1tanaka/OpenSimpleFramework201801/master/LICENSE)
+
 Copyright (c) 2018 Yu Tanaka
 
 # 前提
