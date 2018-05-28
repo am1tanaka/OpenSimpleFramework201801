@@ -15,7 +15,7 @@ Copyright (c) 2018 Yu Tanaka
 # 前提
 - Unity2018.1.0f2
 
-# ライブデモ
+# デモ
 [demo](https://am1tanaka.github.io/OpenSimpleFramework201801/demo/)
 
 # 準備手順
