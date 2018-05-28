@@ -9,13 +9,14 @@ unityroomなど小作品向けのUnity簡易フレームワークです。機能
 - 効果音、BGMの再生(3Dモードは未設定)
 
 # ライセンス
-[MITライセンス]()
+[MIT License](LICENSE)
+Copyright (c) 2018 Yu Tanaka
 
 # 前提
 - Unity2018.1.0f2
 
-# ライブデモ
-[demo](https://)
+# デモ
+[demo](https://am1tanaka.github.io/OpenSimpleFramework201801/demo/)
 
 # 最初の設定
 このリポジトリーは、プロジェクトが利用しているTextMesh ProやPostProcessing Stackなどのアセットを含みません。クローンしたままではエラーが出ますので、以下の手順で設定をしてください。
