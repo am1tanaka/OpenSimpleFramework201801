@@ -16,7 +16,7 @@ Copyright (c) 2018 Yu Tanaka
 - Unity2018.1.0f2
 
 # デモ
-[demo](https://am1tanaka.github.io/OpenSimpleFramework201801/demo/)
+[demo](https://am1tanaka.github.io/OpenSimpleFramework201801/demo/index.html)
 
 # 最初の設定
 このリポジトリーは、プロジェクトが利用しているTextMesh ProやPostProcessing Stackなどのアセットを含みません。クローンしたままではエラーが出ますので、以下の手順で設定をしてください。
