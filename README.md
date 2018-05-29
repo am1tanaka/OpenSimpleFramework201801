@@ -1,11 +1,13 @@
 # OpenSimpleFramework201801
 unityroomなど小作品向けのUnity簡易フレームワークです。
 
-![Title](images\2018-05-29_14h01_10.png)
+<img align="left" src="images\2018-05-29_14h01_10.png" alt="Title" style="width: 100%; height: auto;">
+
+<br clear="both" />
 
 <img align="left" src="images\2018-05-29_14h01_57.png" alt="Game" style="width: 48%; height: auto;">
 
-<img align="right" src="images\2018-05-29_14h02_39.png" alt="Game" style="width: 48%; height: auto;">
+<img align="right" src="images\2018-05-29_14h02_39.png" alt="Ranking" style="width: 48%; height: auto;">
 
 <br clear="both" />
 
