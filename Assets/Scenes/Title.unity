@@ -294,8 +294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f5a5d6ab257d47e288a8c2cced8e1df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  applicationKey: 3b0d6e1a382dc9dfd528ad63746f8078c9b6b588be9a0a05bb244d94e767655f
-  clientKey: de75cbdac1d6efdab1566ace6f255c47466bef74d3c312d67936648676503840
+  applicationKey: 
+  clientKey: 
   usePush: 0
   useAnalytics: 0
   androidSenderId: 
@@ -705,11 +705,56 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114783658205443682, guid: a925d5126699cac4cb93526743520f4b,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114783658205443682, guid: a925d5126699cac4cb93526743520f4b,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114783658205443682, guid: a925d5126699cac4cb93526743520f4b,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224609512960240570, guid: a925d5126699cac4cb93526743520f4b,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 224609512960240570, guid: a925d5126699cac4cb93526743520f4b,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510824271868434, guid: a925d5126699cac4cb93526743520f4b,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510824271868434, guid: a925d5126699cac4cb93526743520f4b,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.60739994
+      objectReference: {fileID: 0}
+    - target: {fileID: 114510824271868434, guid: a925d5126699cac4cb93526743520f4b,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.11792451
+      objectReference: {fileID: 0}
     - target: {fileID: 114214004725958774, guid: a925d5126699cac4cb93526743520f4b,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1693255694}
+    - target: {fileID: 114214004725958774, guid: a925d5126699cac4cb93526743520f4b,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowRanking
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a925d5126699cac4cb93526743520f4b, type: 2}
   m_IsPrefabParent: 0
@@ -796,10 +841,10 @@ RectTransform:
   m_Father: {fileID: 2066357029}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 233.85, y: -70.36}
-  m_SizeDelta: {x: -467.7, y: 50}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 170, y: -70}
+  m_SizeDelta: {x: 208.90002, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1205508773
 MonoBehaviour:
@@ -820,7 +865,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Ver0.01
+  m_text: Ver0.0.2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 984f7821075fc404a981e453a0e6177a, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: dc0f1a23f5739fc40bcafef39141a353, type: 2}
@@ -854,7 +899,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 514
+  m_textAlignment: 516
   m_isAlignmentEnumConverted: 1
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -888,10 +933,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1205508773}
-    characterCount: 7
+    characterCount: 8
     spriteCount: 0
     spaceCount: 0
-    wordCount: 2
+    wordCount: 3
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -1153,6 +1198,46 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4405186164159556, guid: 72370ecfbf4034a45a291f78cd4d3618, type: 2}
       propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224802850464023812, guid: 72370ecfbf4034a45a291f78cd4d3618,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224802850464023812, guid: 72370ecfbf4034a45a291f78cd4d3618,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224802850464023812, guid: 72370ecfbf4034a45a291f78cd4d3618,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224802850464023812, guid: 72370ecfbf4034a45a291f78cd4d3618,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224802850464023812, guid: 72370ecfbf4034a45a291f78cd4d3618,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224802850464023812, guid: 72370ecfbf4034a45a291f78cd4d3618,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224802850464023812, guid: 72370ecfbf4034a45a291f78cd4d3618,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224802850464023812, guid: 72370ecfbf4034a45a291f78cd4d3618,
+        type: 2}
+      propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1612,7 +1697,7 @@ Prefab:
     - target: {fileID: 223627893184017254, guid: 74f425aca608933469ccb48796689e90,
         type: 2}
       propertyPath: m_AdditionalShaderChannelsFlag
-      value: 1
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 74f425aca608933469ccb48796689e90, type: 2}
@@ -1688,7 +1773,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 1
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
