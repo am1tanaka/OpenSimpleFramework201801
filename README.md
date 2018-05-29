@@ -1,5 +1,15 @@
 # OpenSimpleFramework201801
-unityroomなど小作品向けのUnity簡易フレームワークです。機能は以下の通りです。
+unityroomなど小作品向けのUnity簡易フレームワークです。
+
+![Title](images\2018-05-29_14h01_10.png)
+
+<img align="left" src="images\2018-05-29_14h01_57.png" alt="Game" style="width: 48%; height: auto;">
+
+<img align="right" src="images\2018-05-29_14h02_39.png" alt="Game" style="width: 48%; height: auto;">
+
+<br clear="both" />
+
+機能は以下の通りです。
 
 - シーン切り替えに伴う画面やBGMのフェードイン・フェードアウト
 - スコアの管理(カンスト、画面更新、ランキング呼び出し)
@@ -241,3 +251,5 @@ BGMは[H/MIX GALLERY](http://www.hmix.net/)さんの以下の音源を使いま�
 - [@thorikawa. UnityのText Mesh Proアセットで日本語を使うときの手順](https://qiita.com/thorikawa/items/03b65b75fa9461b53efd)
 - [効果音ラボ](https://soundeffect-lab.info/)
 - [H/MIX GALLERY](http://www.hmix.net/)
+- [Brackeys. How to Fade Between Scenes in Unity](https://youtu.be/Oadq-IrOazg)
+  - シーン切り替え時のフェードはほぼこれのまんまです
