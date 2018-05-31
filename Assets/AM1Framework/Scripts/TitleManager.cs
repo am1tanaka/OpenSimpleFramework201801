@@ -20,7 +20,7 @@ public class TitleManager : MonoBehaviour {
     public void ShowRanking()
     {
         SoundController.Play(SoundController.SE.CLICK);
-        naichilab.RankingLoader.Instance.SendScoreAndShowRanking(GameSystem.Score);
+        naichilab.RankingLoader.Instance.SendScoreAndShowRanking(GameSystem.HighScore);
     }
 
     /// <summary>
@@ -28,6 +28,7 @@ public class TitleManager : MonoBehaviour {
     /// </summary>
     public void ShowTweet()
     {
+        SoundController.Play(SoundController.SE.CLICK);
         naichilab.UnityRoomTweet.Tweet(
             "YOUR-GAMEID",
             "【SimpleFramework】で" + GameSystem.HighScore.ToString("#,0")+"点を達成！",
