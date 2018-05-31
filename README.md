@@ -1,5 +1,5 @@
 # OpenSimpleFramework201801
-unityroomなど小作品向けのUnity簡易フレームワークです。
+unityroom向けなどの小作品向用Unity簡易フレームワークです。
 
 <img align="left" src="images\2018-05-29_14h01_10.png" alt="Title" style="width: 100%; height: auto;">
 
@@ -45,7 +45,7 @@ Copyright (c) 2018 Yu Tanaka
 
 ![Original Images](images\2018-05-27_23h54_32.png)
 
-UI Builderのものを使う必要はないので、自由に書き換えたり差し替えてください。
+UI Builderのものを使う必要はないので、とりあえずそのまま利用したり、自由に書き換えてください。
 
 ## 公式パッケージを追加
 Unityを起動して、サンプルプロジェクトを読み込んでください。まずは、**TextMesh Pro**と**Post Processing Stack v2**をインポートします。
