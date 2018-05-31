@@ -32,9 +32,9 @@ Copyright (c) 2018 Yu Tanaka
 [demo](https://am1tanaka.github.io/OpenSimpleFramework201801/demo/index.html)
 
 # 最初の設定
-まずは、このリポジトリーのmasterブランチをクローンするか、[Releases](https://github.com/am1tanaka/OpenSimpleFramework201801/releases)からSource codeをダウンロードして、プロジェクトを入手してください。
+このプロジェクトは、TextMesh ProやPostProcessing Stackなどのアセットを含みません。クローンしたままではエラーが出て動きませんので、以下に示す手順で設定をしてください。
 
-このプロジェクトは、TextMesh ProやPostProcessing Stackなどのアセットを含みません。クローンしたままではエラーが出ますので、以下の手順で設定をしてください。
+まずは、このリポジトリーのmasterブランチをクローンするか、[Releases](https://github.com/am1tanaka/OpenSimpleFramework201801/releases)からSource codeをダウンロードして、プロジェクトを入手してください。
 
 ## UI Builderをお持ちの場合
 ランキングとツイートの仮アイコン画像が、`Assets/Images/UI Builder`フォルダーに入っています。
