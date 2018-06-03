@@ -865,7 +865,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Ver0.0.3
+  m_text: Ver0.0.4
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 984f7821075fc404a981e453a0e6177a, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: dc0f1a23f5739fc40bcafef39141a353, type: 2}
@@ -1698,6 +1698,11 @@ Prefab:
         type: 2}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 82831312211949818, guid: 74f425aca608933469ccb48796689e90,
+        type: 2}
+      propertyPath: Loop
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 74f425aca608933469ccb48796689e90, type: 2}
